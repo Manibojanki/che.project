@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Water Pollution</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="causes.html">CAUSES</a></li>
+					<li><a href="solutions.html">SOLUTIONS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+
+	</section>
+
+<!------ solutions ------>
+	<section class="solution">
+	<h1>Solutions or Preventions</h1>
+	<p>Half of the world's inhabitants will live in water-scarce areas by 2025, so every drop of polluted water today is an irreparable loss for tomorrow. That's why we must prevent water pollution with measures like the following:</p>
+	
+	<div class="row"
+		<div.solution="solution-col">
+		<h3>Reduce CO2 emissions to prevent global warming and acidification of the oceans.</h3>
+		</div>
+		<div.solution="solution-col">
+		<h3>Reduce the use of chemical pesticides and nutrients on crops.</h3>
+		</div>
+		<div.solution="solution-col">
+		<h3>Reduce and safely treat waste water so that, as well as not polluting, it can be reused for irrigation and energy production.</h3>
+		</div>
+		<div.solution="solution-col">
+		<h3>Restrict the use of single-use plastics that end up floating in rivers, lakes and oceans, many as microplastics.</h3>
+		</div>
+		<div.solution="solution-col">
+		<h3>Encourage sustainable fishing to ensure the survival of species and avoid depletion of the seas.</h3>
+		</div>
+		
+		</div>
+	
+	
+<!------JavaScript for Toggle Menu------>	
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Water Pollution</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="causes.html">CAUSES</a></li>
+					<li><a href="solutions.html">SOLUTIONS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+			
+	<div class="text-box">
+		<h1>Water Pollution</h1>
+		<p>Water pollution is the contamination of water sources by substances<br> which make the water unusable for drinking,cooking and other activities.</p>
+		<a href="" class="hero-btn">Visit Us to Know More</a>
+	</div>
+	
+	</section>
+	
+	<!------ course ------>
+	
+<section class="course">
+	<h1>Types of Water Pollution</h1>
+	<p>The second most prevalent kind of pollution after contaminated air, water pollution afflicts our rivers, lakes, reservoirs, groundwater and aquifers – not to mention the seas and oceans which cover the majority of our planet. However, not all kinds of water pollution come from the same source. Here’s a quick rundown of the different types of water pollution currently compromising the quality of H0 all over the globe.</p>
+	
+	<div class="row"
+		<div.course="course-col">
+		<h3>Chemical pollution</h3>
+		<p>The most common type of water pollution, chemicals can infiltrate both underground water sources and those sitting on the Earth’s surface. As an integral component of the agricultural industry, it’s unsurprising that much of chemical contamination comes from the pesticides and fungicides used in farming, but metals and solvents from industrial sites are also leading contributors.</p>
+		</div>
+		<div.course="course-col">
+		<h3>Groundwater pollution</h3>
+		<p>As mentioned above, agriculture is a key source of water pollution, especially for groundwater. Fertilisers and pesticides applied to crops can seep into the ground and contaminate underwater rivers and waterbeds, thus compromising the quality of wells, boreholes and other places from which groundwater is extracted for human use.</p>
+		</div>
+		<div.course="course-col">
+		<h3>Microbiological pollution</h3>
+		<p>Unlike most others on this list, microbiological pollution is a naturally occurring form of water contamination. Microorganisms such as bacteria, protozoa and viruses can infiltrate water supplies, causing diseases such as bilharzia and cholera. Humans are most susceptible to this kind of pollution in places where adequate water treatment systems are not yet in place.</p>
+		</div>
+		<div.course="course-col">
+		<h3>Nutrient pollution</h3>
+		<p>While they’re vital for underwater flora and fauna to flourish, an excess of nutrients can upset the delicate imbalance of water-based ecosystems. Fertilisers contain a high concentration of nutrients which, if they contaminate rivers, lakes and coastal areas, can cause algal blooming that can block out sunlight and inhibit the growth of other organisms.</p>
+		</div>
+		<div.course="course-col">
+		<h3>Oxygen-depletion pollution</h3>
+		<p>Another consequence of algal blooms is their consumption of oxygen supplies. This means that those species which depend upon oxygen to survive are killed off, while anaerobic ones thrive. Some anaerobic microorganisms are capable of producing ammonia, sulphides and other harmful toxins, which can make the water even more dangerous to animals (and humans, too).</p>
+		</div>
+		<div.course="course-col">
+		<h3>Surface water pollution</h3>
+		<p>Referring to all water sources above ground, such as rivers, lakes, seas and oceans, surface water pollution can occur both naturally, accidentally and intentionally. For example, monitoring has an all-important role in natural flood management, which can lead to poor water quality, while accidental oil spills and negligent industries emptying waste into water bodies are also key contributors.</p>
+		</div>
+		</div>
+	
+	
+	</section>
+	
+	
+<!------ campus ------->
+
+	<section class="campus">
+		<h1>Top 3 Most Polluted Countries</h1>
+		<p>Water pollution is an issue which plagues populations all across the globe. three countries might be among the most polluted places on the planet when it comes to water quality, and while waterborne diseases might be a concern in all of them, they do have the economic clout to address the issue. It is other regions of the world, where such luxuries are simply out of reach, where water pollution is more of an endemic and urgent problem. With that in mind, here’s a rundown of five of the most vulnerable populations worldwide when it comes to water pollution.</p>
+		
+		<div class="row">
+			<div class="campus-col">
+					<h3>Eritrea</h3>
+					<p>A gob-smacking 80% of the Eritrean people are not able to access basic drinking water and sanitation services in their country. Because there is no sewage system in place in much of the eastern part of the nation, human and animal waste can easily infiltrate water supplies and have grave ramifications on human health. At the same time, backwards farming practices and widespread deforestation only degrade soil and deteriorate water quality even further.</p>
+			</div>
+			<div class="campus-col">
+					<h3>Papua New Guinea</h3>
+					<p>Almost two-thirds (63%) of Papua New Guineans lack access to clean water. That’s due to the fact that much of the archipelago’s population is scattered in rural smallholdings among its 600 islands, where infrastructure is conspicuous by its absence and even awareness of basic hygiene practices is sadly wanting. Meanwhile, the fact that Papua New Guinea regularly suffers extreme natural disasters, such as cyclones, floods and tsunamis, means it’s difficult to address the issue.</p>
+			</div>
+			<div class="campus-col">
+					<h3>Uganda</h3>
+					<p>A similar percentage (61%) of Ugandans are without access to basic water services. That’s because the development of the national infrastructure has not managed to keep pace with the country’s economic boom and ballooning population, meaning there is a desperate shortage of sanitation and drinking water services. What’s more, the fact that Uganda has welcomed over 1.5 million refugees (many from neighbouring South Sudan) has only exacerbated the problem.</p>
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	
+<!------JavaScript for Toggle Menu------>	
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	
+</script>
+
+</body>
+</html>
